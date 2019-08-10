@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Psychic Game</title>        
+    </head>
+    <body>       
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                        <!-- in html write Guess what letter i am thinking about? -->
+                      <h1 class="display-4">The Psychic Game!</h1>             
+                          <p class="lead">Guess What letter I am thinking about? 
+                                <!-- choose a letter between A-Z; -->
+                          <br> Choose a letter between A - Z to start the GAME!
+                      </p>
+                      <div id="game">
+                     </div>
+                </div>
+            </div>                           
+                <div class="row">
+                            <div class="col-sm-4">
+                                <img src="assets/images/power.jpg" class="thumbnail" alt="img-fluid" height="400" width="400">
+                            </div>
+                                <div class="col-sm-4">
+                                    <ul id="space" class="list-group">
+                                        <li class="list-group-item" id="wins">Wins:</li>
+                                        <li class="list-group-item" id="lose">Losses:</li>
+                                        <li class="list-group-item" id="guess-remaining">Guesses Left:</li>
+                                        <li class="list-group-item" id="guessed-letter">Your Guesses so far:</li>
+                                    </ul>
+                                </div>
+                                    <div class="col-sm-4">
+                                        <img src="https://i.pinimg.com/originals/51/fd/f1/51fdf1f51f87b530001bc36376eaacfd.jpg" class="thumbnail" alt="img-fluid" height="400" width="400">
+                                    </div>
+                    </div>
+            
+                <div class="footer">
+                    &copy;Copyright Sharma
+                </div>            
+                <!-- Javascript game.js link -->
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+     
+     </body>   
+</html>     
