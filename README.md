@@ -4,4 +4,4 @@ This is a psychic computer game. User guesses the letter that the computer is th
 Once you win or you run out of guesses, computer will choose a new letter for the user to guess.
 
 Runs in the browser, and feature dynamically updated HTML powered by JavaScript code.
-
+ https://sharmap1.github.io/Psychic-Game/
